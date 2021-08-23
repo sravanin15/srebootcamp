@@ -1,5 +1,5 @@
 git clone https://github.com/sravanin15/srebootcamp.git
-cd srebootcamp/task1
+cd srebootcamp
 docker build -t my-web-server .
 docker build -t gcr.io/myproject1-321806/my-web-server
 docker push gcr.io/myproject1-321806/my-web-server
